@@ -6,7 +6,17 @@
       <div class="texto">
         <p>
           <br />
-          <br />
+          <strong>Preço e prazo</strong> <br />
+
+          O preço do envio varia de região e quantidade de peças, para consultar
+          o valor basta colocar qualquer produto no carrinho de compras e
+          informar o seu CEP na área “opções de frete”, o próprio site já te
+          dirá o preço e prazo de acordo com o CORREIOS . <br />
+          O envio é feito por PAC ou SEDEX. Nesse caso você receberá um código
+          de rastreamento em que poderá acompanhar o status do pedido, situação
+          e data de postagem e entrega. <br />
+          O prazo de postagem é de até 2 dias uteis após aprovação do pedido e
+          pagamento (prazo de até 24hs para aprovação do pagamento).
         </p>
       </div>
     </div>

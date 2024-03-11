@@ -17,8 +17,8 @@ export default {
   target: "static",
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: "%s - E-commerce",
-    title: "GranSys",
+    titleTemplate: "%s Boutique",
+    title: "Singular",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -27,11 +27,11 @@ export default {
 
       { hid: "og:locale", name: "og:locale", content: "pt_BR" },
 
-      { hid: "og:url", name: "og:url", content: "http://..." },
-      { hid: "og:title", name: "og:title", content: "Home" },
-      { hid: "og:site_name", name: "og:site_name", content: "..." },
+      { hid: "og:url", name: "og:url", content: "http://singularmodasboutique.com.br" },
+      { hid: "og:title", name: "og:title", content: "Singular Boutique" },
+      { hid: "og:site_name", name: "og:site_name", content: "Peças coringas para vários Estilos e Ocasiões." },
 
-      { hid: "og:description", name: "og:description", content: "..." },
+      { hid: "og:description", name: "og:description", content: "Peças coringas para vários Estilos e Ocasiões." },
 
       { hid: "og:image", name: "og:image", content: "/og_image.png" },
       { hid: "og:image:type", name: "og:image:type", content: "image/png" },
@@ -58,7 +58,7 @@ export default {
         rel: "stylesheet",
         href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css",
       },
-      { rel: "icon", type: "image/svg", href: "/logo.svg" },
+      { rel: "icon", type: "image/png", href: "/singular-sem-fundo.png" },
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap",
@@ -100,7 +100,7 @@ export default {
       },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Montserrat&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Anek+Odia&display=swap",
       },
     ],
   },

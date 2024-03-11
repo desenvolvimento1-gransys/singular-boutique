@@ -7,7 +7,15 @@
         <p>
           <strong>Seja bem vindo(a)! </strong>
           <br />
+          Somos duas irmãs, apaixonadas por moda e beleza. Entendemos que, a
+          singularidade faz de você, alguém incrível em todos os sentidos! Com
+          isso, surgimos com o pensamento, de vender peças versáteis, que
+          permitam criar muitos looks diferentes, sustentável e consciente.
           <br />
+          Selecionamos peças de extrema qualidade, atemporais, que vão te deixar
+          maravilhosa, seja no trabalho ou no passeio. Fazemos tudo, com muito
+          amor e esperamos que sua experiência virtual, seja a melhor possível.
+          Seja bem vinda(o)!
         </p>
       </div>
     </div>

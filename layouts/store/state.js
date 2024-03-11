@@ -10,16 +10,16 @@ let errorColor = 'red';
 let defaultGold = '#d2ad6d';
 
 let merchantInfo = {
-    companyName: 'GranSys',
-    cnpj: 'XX.XXX.XXX/XXXX-XX',
-    whatsappNumber: "(19) 97121-8760",
+    companyName: 'Singular Boutique',
+    cnpj: '54.084.498.0001/47',
+    whatsappNumber: "(11) 97228-3974",
 
-    phone: " (99) 9 9999-9999",
-    email: "...@...",
-    address: "...",
-    workingHours: "",
-    location: "...",
-    installment: 10,
+    phone: "",
+    email: "sacsingularboutique@gmail.com",
+    address: "",
+    workingHours: "Segunda a Sexta, das 8h as 18hrs",
+    location: "",
+    installment: 6,
 
     facebook: "https://www.facebook.com/pages/category/Software-Company/Gran-Sys-100299285073357/",
     instagram: "",
@@ -38,9 +38,9 @@ let merchantInfo = {
 
 };
 //Muda logo do topo
-let logo = "https://grancommtest.s3.amazonaws.com/layout-default-items/logos/gransys/logoText.png";
+let logo = "/singular-sem-fundo.png";
 //Muda logo do footer
-let logoAlt = "https://granshopping.s3.amazonaws.com/files/logoGranSys.png";
+let logoAlt = "/singular-sem-fundo.png";
 
 export default () => ({
     config: {
@@ -109,7 +109,7 @@ export default () => ({
             finishPayment: 'V2'
         },
         installmentRule: {
-            minimumInstallmentValue: 25,
+            minimumInstallmentValue: 40,
             minimumInstallmentTimes: 1,
             maximumInstallmentTimes: merchantInfo.installment,
         },
@@ -276,7 +276,7 @@ export default () => ({
             app: {
                 // 'font-family': "'Fjalla One', sans-serif",
                 //'font-weight': '400',
-                'font-family': "'Roboto', sans-serif",
+                'font-family': "'Anek Odia', sans-serif",
                 'background-color': 'white',
                 width: "100% !important",
             },
@@ -286,8 +286,8 @@ export default () => ({
         },
         topBar: {
             main: {
-                'font-family': "'Bree Serif', serif",
-                'background-color': 'white'
+                // 'font-family': "'Bree Serif', serif",
+                'background-color': 'black'
             },
             phone: {
                 cols: 12,
@@ -307,36 +307,36 @@ export default () => ({
             },
             logoUrl: logo,
             sizes: {
-                'max-width': '1130px !important;',
+                'max-width': '1300px !important;',
                 'align-items': 'center',
                 'margin': 'auto',
 
             },
             icons: {
-                color: 'black'
+                color: 'white'
             },
             iconsText: {
-                color: 'black',
-                'font-size': '16px'
+                color: 'white',
+                'font-size': '18px'
             },
             cartIcon: {
                 class: 'mdi mdi-shopping-outline cart-icon',
                 style: {
-                    color: 'black'
+                    color: 'white'
                 }
             },
             cartText: {
-                color: 'black',
+                color: 'white',
             },
             topBarLogoImg: {
-                height: '45px ',
+                height: '65px',
                 width: 'auto',
                 padding: '0 0 0px 0 !important'
             },
             searchInput: {
                 border: 'solid rgba(128, 128, 128, 0.322) 1px',
                 width: '100%',
-                color: 'black !important',
+                color: 'white !important',
                 'border-radius': '50px',
                 //  height: '40px'
             },
@@ -346,7 +346,7 @@ export default () => ({
             },
             mobile: {
                 main: {
-                    'background-color': secondaryColor,
+                    'background-color': 'black',
                 },
                 logoUrl: logo,
                 logoStyle: {
@@ -356,14 +356,14 @@ export default () => ({
                     icon: 'fas fa-bars',
                     style: {
                         'font-size': '23px !important',
-                        color: iconColor,
+                        color: 'white',
                     }
                 },
                 cart: {
                     icon: 'mdi mdi-shopping-outline cart-icon',
                     style: {
                         'font-size': '27px !important',
-                        color: iconColor
+                        color: 'white'
                     }
                 },
                 searchInput: {
@@ -386,7 +386,7 @@ export default () => ({
                     "font-size": '23px !important',
                     height: '40px !important',
                     background: 'none !important',
-                    color: iconColor
+                    color: 'white'
                 },
             }
         },
@@ -540,10 +540,15 @@ export default () => ({
                 title: 'Destaques',
                 titleStyle: {
                     'background-color': secondaryColor,
-                    'text-transform': 'uppercase',
-                    'border-top': 'solid grey 1px',
+
+                    'font-weight': 'bold',
+                    'font-size': '32px',
+                    'border-top': '1px solid black',
+
+                    'border-bottom': '1px solid black',
                     color: 'black',
-                    'font-family': "'Open Sans', sans-serif",
+                    "font-family": '"Petit Formal Script", cursive',
+
                 },
                 titleClass: 'text-center',
             },
@@ -2263,14 +2268,14 @@ export default () => ({
                 position: 'inherit',
                 padding: '50px',
                 'min-height': '300px',
-                'background-color': 'white',
+                'background-color': 'black',
                 'margin-top': '20px !important',
                 'border-top': '1px solid grey',
                 'border-bottom': '1px solid grey',
             },
             titleStyle: {
                 'font-size': '22px',
-                color: 'black',
+                color: 'white',
                 'font-weight': 'bold'
             },
             list: {
@@ -2280,7 +2285,7 @@ export default () => ({
                 {
                     name: 'Quem Somos', route: '/quem-somos', style: {
                         'text-decoration': 'none !important',
-                        color: 'black',
+                        color: 'white',
                         'font-size': '15px'
                     }
                 },
@@ -2288,7 +2293,7 @@ export default () => ({
 
                     name: 'Políticas de Trocas', route: '/politicas-trocas', style: {
                         'text-decoration': 'none !important',
-                        color: 'black',
+                        color: 'white',
                         'font-size': '15px'
                     }
 
@@ -2297,7 +2302,7 @@ export default () => ({
                 {
                     name: 'Políticas de Entregas', route: '/politicas-entrega', style: {
                         'text-decoration': 'none !important',
-                        color: 'black',
+                        color: 'white',
                         'font-size': '15px'
                     }
 
@@ -2306,29 +2311,29 @@ export default () => ({
                 {
                     name: 'Políticas de Privacidade', route: '/politica-privacidade', style: {
                         'text-decoration': 'none !important',
-                        color: 'black',
+                        color: 'white',
                         'font-size': '15px'
                     }
 
                 }
             ],
             contactList: [
-                {
-                    name: merchantInfo.phone,
-                    style: {
-                        color: 'black',
-                        'font-size': '12px'
-                    },
-                    icon: 'mdi mdi-phone',
+                // {
+                //     name: merchantInfo.phone,
+                //     style: {
+                //         color: 'white',
+                //         'font-size': '12px'
+                //     },
+                //     icon: 'mdi mdi-phone',
 
-                    iconStyle: {
-                        color: iconColor
-                    }
-                },
+                //     iconStyle: {
+                //         color: iconColor
+                //     }
+                // },
                 {
                     name: merchantInfo.whatsappNumber,
                     style: {
-                        color: 'black',
+                        color: 'white',
                         'font-size': '12px'
                     },
                     icon: 'mdi mdi-whatsapp',
@@ -2341,7 +2346,7 @@ export default () => ({
                 /*{
                     name: merchantInfo.address,
                     style: {
-                        color: 'black',
+                        color: 'white',
                         'font-size': '13px'
                     },
                     icon: 'mdi mdi-map-legend',
@@ -2361,7 +2366,7 @@ export default () => ({
                     {
                         icon: 'mdi mdi-instagram',
                         iconStyle: {
-                            color: 'black',
+                            color: 'white',
                             'font-size': '33px'
                         },
                         href: merchantInfo.instagram
@@ -2369,7 +2374,7 @@ export default () => ({
                     {
                         icon: 'mdi mdi-facebook',
                         iconStyle: {
-                            color: 'black',
+                            color: 'white',
                             'font-size': '33px'
                         },
                         href: merchantInfo.facebook
@@ -2377,7 +2382,7 @@ export default () => ({
                     {
                         icon: 'mdi mdi-whatsapp',
                         iconStyle: {
-                            color: 'black',
+                            color: 'white',
                             'font-size': '33px'
                         },
                         href: merchantInfo.whatsappLink
