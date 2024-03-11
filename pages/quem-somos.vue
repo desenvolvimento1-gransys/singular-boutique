@@ -7,6 +7,7 @@
         <p>
           <strong>Seja bem vindo(a)! </strong>
           <br />
+          <br />
           Somos duas irmãs, apaixonadas por moda e beleza. Entendemos que, a
           singularidade faz de você, alguém incrível em todos os sentidos! Com
           isso, surgimos com o pensamento, de vender peças versáteis, que

@@ -21,14 +21,15 @@
         <span :style="layout.index.information.text"> {{ item.text }} </span>
       </v-col>
     </v-row>
-
+    <br />
     <v-carousel
       hide-delimiter-background
       hide-delimiters
       class="d-md-none d-sm-block"
-      height="35px"
+      height="45px"
       :show-arrows="false"
       interval="2000"
+      style="background-color: black"
       cycle
     >
       <v-carousel-item

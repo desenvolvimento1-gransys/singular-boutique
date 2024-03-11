@@ -21,8 +21,8 @@ let merchantInfo = {
     location: "",
     installment: 6,
 
-    facebook: "https://www.facebook.com/pages/category/Software-Company/Gran-Sys-100299285073357/",
-    instagram: "",
+    facebook: "",
+    instagram: "https://www.instagram.com/singularmodasboutique/",
 
     get emailLink() {
         return `mailto:${this.email}`;
@@ -521,13 +521,13 @@ export default () => ({
                 },
                 mobile: {
                     iconsStyle: {
-                        color: 'black !important'
+                        color: 'white !important'
                     },
                     boldTextStyle: {
-                        color: 'black !important'
+                        color: 'white !important'
                     },
                     textStyle: {
-                        color: 'black !important'
+                        color: 'white !important'
                     }
                 }
             },
@@ -2371,14 +2371,14 @@ export default () => ({
                         },
                         href: merchantInfo.instagram
                     },
-                    {
-                        icon: 'mdi mdi-facebook',
-                        iconStyle: {
-                            color: 'white',
-                            'font-size': '33px'
-                        },
-                        href: merchantInfo.facebook
-                    },
+                    // {
+                    //     icon: 'mdi mdi-facebook',
+                    //     iconStyle: {
+                    //         color: 'white',
+                    //         'font-size': '33px'
+                    //     },
+                    //     href: merchantInfo.facebook
+                    // },
                     {
                         icon: 'mdi mdi-whatsapp',
                         iconStyle: {
