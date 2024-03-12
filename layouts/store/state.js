@@ -12,7 +12,7 @@ let defaultGold = '#d2ad6d';
 let merchantInfo = {
     companyName: 'Singular Boutique',
     cnpj: '54.084.498.0001/47',
-    whatsappNumber: "(11) 97228-3974",
+    whatsappNumber: "(11) 97555-2909",
 
     phone: "",
     email: "sacsingularboutique@gmail.com",
@@ -497,7 +497,7 @@ export default () => ({
             },
             information: {
                 items: [
-                    { icon: 'mdi mdi-truck-check-outline', bold: '  Frete grátis', text: 'acima de R$ 99,99' },
+                    { icon: 'mdi mdi-cash-multiple', bold: '  Compre no Pix', text: 'e ganha 5% off' },
                     { icon: 'mdi mdi-card-account-details-outline', bold: `  ${merchantInfo.installment}x s/ juros`, text: 'nos cartões de crédito' },
                     { icon: 'mdi mdi-checkbox-multiple-marked', bold: 'Pronta entrega', text: 'em todo site' }
                 ],
@@ -2318,18 +2318,6 @@ export default () => ({
                 }
             ],
             contactList: [
-                // {
-                //     name: merchantInfo.phone,
-                //     style: {
-                //         color: 'white',
-                //         'font-size': '12px'
-                //     },
-                //     icon: 'mdi mdi-phone',
-
-                //     iconStyle: {
-                //         color: iconColor
-                //     }
-                // },
                 {
                     name: merchantInfo.whatsappNumber,
                     style: {
@@ -2343,17 +2331,29 @@ export default () => ({
                         'font-size': '18px'
                     }
                 },
-                /*{
-                    name: merchantInfo.address,
+                {
+                    name: merchantInfo.email,
                     style: {
                         color: 'white',
                         'font-size': '13px'
                     },
-                    icon: 'mdi mdi-map-legend',
+                    icon: 'mdi mdi-email',
                     iconStyle: {
                         color: iconColor
                     }
-                }*/
+                },
+                {
+                    name: merchantInfo.workingHours,
+                    style: {
+                        color: 'white',
+                        'font-size': '12px'
+                    },
+                    icon: 'mdi mdi-clock',
+
+                    iconStyle: {
+                        color: iconColor
+                    }
+                },
             ],
             logoSession: {
                 style: {},
@@ -2394,6 +2394,7 @@ export default () => ({
                 color: 'white',
 
                 cards: [
+
                     {
                         class: '',
                         style: '',
@@ -2414,12 +2415,25 @@ export default () => ({
                         style: 'width: 53px !important',
                         src: '/cardsBuySession/hipercard.png'
                     },
+
+                ],
+                other: [
                     {
                         class: 'mb-3',
                         style: 'width: 53px !important',
                         src: '/cardsBuySession/elo-white.png'
-                    }
-                ]
+                    },
+                    {
+                        class: 'mb-3',
+                        style: '',
+                        src: '/cardsBuySession/boleto-logo.png'
+                    },
+                    {
+                        class: 'mb-6',
+                        style: '',
+                        src: '/cardsBuySession/pix-2.png'
+                    },
+                ],
             },
             copyrightSession: {
                 copyright: merchantInfo.copyright

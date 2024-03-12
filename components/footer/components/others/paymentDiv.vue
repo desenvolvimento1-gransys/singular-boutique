@@ -9,6 +9,15 @@
       :src="card.src"
       alt="Logo do cartao aceito"
     />
+    <br />
+    <img
+      v-for="card in layout.footer.paymentSession.other"
+      :key="card.id"
+      :class="card.class"
+      :style="card.style"
+      :src="card.src"
+      alt="Logo do cartao aceito"
+    />
   </div>
 </template>
 

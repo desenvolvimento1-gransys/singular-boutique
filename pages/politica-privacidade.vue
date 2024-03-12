@@ -89,6 +89,7 @@
           </li>
         </ul>
         <br />
+        <br />
         <strong>Alteração da política de privacidade</strong>
         <hr />
         <br />
