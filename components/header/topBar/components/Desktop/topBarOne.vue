@@ -65,15 +65,49 @@
             </router-link>
           </v-col>
           <v-col cols="2" align="right" style="margin-top: 5px" class="cart">
-            <button @click="showCart()">
+            <v-menu
+              open-on-hover
+              offset-y
+              nudge-left="200"
+              min-width="500"
+              max-width="500"
+              max-height="500"
+            >
+              <template v-slot:activator="{ on, attrs }">
+                <a
+                  style="text-decoration: none; color: white"
+                  @click="showCart()"
+                  v-bind="attrs"
+                  v-on="on"
+                >
+                  <i
+                    :class="layout.topBar.cartIcon.class"
+                    :style="layout.topBar.cartIcon.style"
+                  ></i>
+                  <span
+                    style="font-size: 14px"
+                    :style="layout.topBar.cartText"
+                    >{{ totalAmountInCart }}</span
+                  >
+                </a>
+              </template>
+              <v-card>
+                <v-toolbar dense color="black">
+                  <v-toolbar-title style="color: white"
+                    >Minha Sacola</v-toolbar-title
+                  >
+                </v-toolbar>
+                <cart-dialog-content />
+              </v-card>
+            </v-menu>
+
+            <!-- <button @click="showCart()">
               <i
                 :class="layout.topBar.cartIcon.class"
                 :style="layout.topBar.cartIcon.style"
               ></i>
-              <span style="font-size: 14px" :style="layout.topBar.cartText">{{
-                totalAmountInCart
-              }}</span>
-            </button>
+              
+            </button> -->
           </v-col>
         </v-row>
       </v-col>

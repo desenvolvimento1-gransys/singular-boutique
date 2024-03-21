@@ -9,7 +9,7 @@
           <br />
           <ol>
             <li>O custo do FRETE para devolução ou troca é do cliente. Ao recebermos a peça, após conferência, se tiver de acordo com a  política,  fazemos o estorno do valor.
-Na devolução, é devolvido apenas o valor pago pela peça devolvida.</li>
+            Na devolução, é devolvido apenas o valor pago pela peça devolvida.</li>
           <li> A peça deverá estar com etiqueta fixada, da mesma maneira que foram
           recebidas.</li>
           <li>Deverá estar na embalagem ORIGINAL ou embalagem

@@ -248,7 +248,7 @@
                 </p>
 
                 <p
-                   v-if="config.progressiveDiscount"
+                  v-if="config.progressiveDiscount"
                   :class="layout.cart.cartDialog.bottomRow.subTotal.text.class"
                   :style="layout.cart.cartDialog.bottomRow.subTotal.text.style"
                 >
@@ -265,7 +265,7 @@
                 </p>
 
                 <p
-                   v-if="config.progressiveDiscount"
+                  v-if="config.progressiveDiscount"
                   :class="layout.cart.cartDialog.bottomRow.subTotal.text.class"
                   :style="layout.cart.cartDialog.bottomRow.subTotal.text.style"
                 >
@@ -283,7 +283,7 @@
                 <br />
 
                 <div>
-                  <span style=""  v-if="config.progressiveDiscount">{{
+                  <span style="" v-if="config.progressiveDiscount">{{
                     getQtdProducts()
                   }}</span>
 
@@ -379,19 +379,14 @@ export default {
       "removeItem",
     ]),
 
-
     getQtdProducts() {
       let result =
         this.config.qtdProductsForDiscount -
         this.getProductsWithoutSale.totalAmount;
       if (result <= 0) {
-        return (
-          ""
-        );
+        return "";
       } else {
-        return (
-          ""
-        );
+        return "";
       }
     },
   },
